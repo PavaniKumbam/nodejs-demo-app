@@ -1,4 +1,4 @@
-🚀 Node.js Demo App – CI/CD with GitHub Actions & Docker
+# 🚀 Node.js Demo App – CI/CD with GitHub Actions & Docker
 
 This is a sample Node.js web application that demonstrates how to:
 
@@ -7,7 +7,7 @@ This is a sample Node.js web application that demonstrates how to:
 ✅ Automate deployment with a CI/CD pipeline (GitHub Actions)
 ✅ Push Docker images to Docker Hub
 
-📌 Project Structure
+## 📌 Project Structure
 nodejs-demo-app/
 │── app.js              # Main Node.js application
 │── package.json        # Node.js dependencies & scripts
@@ -28,7 +28,7 @@ Counter API /api/increment → Increases counter each time you call it
 
 Logs requests with timestamps
 
-🐳 Docker Support
+## 🐳 Docker Support
 
 The app can run inside a Docker container.
 
@@ -41,7 +41,7 @@ docker run -d -p 3000:3000 nodejs-demo-app:local
 
 Then open in browser → http://localhost:3000
 
-⚙️ CI/CD Pipeline with GitHub Actions
+## ⚙️ CI/CD Pipeline with GitHub Actions
 
 The pipeline is defined in .github/workflows/main.yml.
 
@@ -59,7 +59,7 @@ Push image to Docker Hub automatically 🎉
 
 No manual steps needed → Everything runs automatically!
 
-🔑 Secrets Configuration
+## 🔑 Secrets Configuration
 
 We use GitHub Secrets to store sensitive information:
 
@@ -69,7 +69,7 @@ DOCKERHUB_TOKEN → Docker Hub access token
 
 These are used in the workflow for secure login to Docker Hub.
 
-🚀 How Others Can Test
+## 🚀 How Others Can Test
 
 Clone this repo:
 
