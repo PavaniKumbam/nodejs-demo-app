@@ -1,11 +1,11 @@
 # 🚀 Node.js Demo App – CI/CD with GitHub Actions & Docker
 
-'''
+```
 How do you deploy an application using GitHub Actions?
 
 GitHub Actions makes deploying your application smooth and automated as part of you CI/CD pipeline.
 Here’s how it works step-by-step:
-'''
+```
 
 
 This is a sample Node.js web application that demonstrates how to:
