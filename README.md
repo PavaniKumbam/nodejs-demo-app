@@ -11,17 +11,24 @@ Here’s how it works step-by-step:
 This is a sample Node.js web application that demonstrates how to:
 
 ✅ Build a web app using Node.js & Express
+
 ✅ Containerize it with Docker
+
 ✅ Automate deployment with a CI/CD pipeline (GitHub Actions)
+
 ✅ Push Docker images to Docker Hub
 
 ## 📌 Project Structure
 nodejs-demo-app/
 │── app.js              # Main Node.js application
+
 │── package.json        # Node.js dependencies & scripts
+
 │── Dockerfile          # Docker instructions to build image
+
 │── .github/workflows/  # GitHub Actions CI/CD pipeline
 │    └── main.yml
+
 │── README.md           # Project documentation
 
 🌍 Features of the App
