@@ -112,3 +112,34 @@ Runs tests
 Deploys safely and reliably
 All from your GitHub repo
 
+
+```
+Jenkins/GitHub Actions pipeline = Automation script
+→ defines “what steps to run and in what order”
+
+Dockerfile = Blueprint for the container image
+→ defines “what your container should contain and how it should run”
+
+They work together, but serve different purposes 💡
+
+⚙️ Detailed Explanation:
+🧱 1️⃣ What the pipeline does:
+
+In your YAML (or Jenkinsfile):
+
+Checkout code from GitHub
+
+Install dependencies
+
+Run tests
+
+Build Docker image (using Dockerfile)
+
+Push image to Docker Hub
+
+So, the pipeline tells when and how to build.
+
+🧩 2️⃣ What the Dockerfile does:
+
+The Dockerfile tells what goes inside the image.
+```
