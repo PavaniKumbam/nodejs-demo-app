@@ -114,6 +114,8 @@ All from your GitHub repo
 
 
 ```
+⚙️ ⚙️  Quick Recap/What we learned
+
 Jenkins/GitHub Actions pipeline = Automation script
 → defines “what steps to run and in what order”
 
